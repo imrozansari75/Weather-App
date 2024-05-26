@@ -1,0 +1,53 @@
+@media (max-width: 320px) {
+    .card {
+        width: 95%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin: 0px auto;
+        padding: 40px 15px;
+        border-radius: 10px;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .search input {
+        padding: 10px 18px;
+        height: 40px;
+        width: 100%;
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    .search button {
+        width: 40px;
+        height: 40px;
+    }
+    .search button img{
+        margin: 5px 1px 0 0;
+    }
+
+    .weather-icon{
+        width: 130px;
+    }
+
+    .weather h1{
+        font-size: 3rem;
+    }
+
+    .weather h2{
+        font-size: 2rem;
+    }
+
+    .col{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col img{
+        margin-bottom: 10px;
+    }
+}
